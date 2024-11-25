@@ -10,6 +10,3 @@ add(X,Y) ->
 greet_and_two(A,B) -> 
     hello(),
     add(A,B).
-
-git config --global user.email "you@example.com"
-  git config --global user.name "Your Name"
