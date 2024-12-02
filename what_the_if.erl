@@ -11,7 +11,7 @@ heh_fine(N) ->
     end.
 
 help_me(Animal) ->
-    Talk = if Animal == cat -> "meow"; %мяу
+    Talk = if Animal == cat -> "мяу"; %мяу
               Animal == beef -> "mooo";
               Animal == dog -> "gaw";
               true -> "Але я человек"
